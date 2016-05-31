@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.top{
+
+	height: 30px;
+
+	line-height: 30px;
+	background: #F1F1F1;
+}
+.top .top_box{
+	width: 1210px;
+	margin:0 auto;
+	position: relative;
+}
+.top .top_box ul li a{
+	color: black;
+	
+}
+.top .top_box .city{
+	float: left;
+}
+.top .top_box ul li{
+	float: right;
+	margin-left:10px;
+	font-size:13px; 
+
+}
+.top .top_box .vercital{
+	
+}
+.logo{
+	
+	height: 120px;
+	background: #FFD12D;
+	
+}
+.logo .logo_box{
+	width:1210px;
+	margin:0 auto;
+	position: relative;
+}
+.logo .logo_box .shut{
+	width: 20px;
+	height:20px;
+	background: red;
+	position:absolute;
+	top:0px;
+	right:0px;
+	text-align: center;
+	line-height: 20px;
+}
