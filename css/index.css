@@ -25,15 +25,63 @@ a{
 	color: black;
 	
 }
+.top .top_box .free{
+	color: #B61E1D;
+}
 .top .top_box .city{
 	float: left;
+	font-size:13px; 
+	height: 28px;
+	width: 100px;
+	cursor:pointer;
+	text-align: center;
 }
+.top .top_box .city .role{
+	position: absolute;
+/*	width: 10px;
+	height: 10px;*/
+	/*background: red;*/
+	top: 0px;
+	left:90px;
+}
+.top .top_box .city:hover .role{
+	transform:rotateZ(180deg);
+	transition:linear .2s;
+	/*bac*/
+}
+.top .top_box .city .blank{
+	width: 100px;
+	height: 5px;
+	background: white;
+	position: absolute;
+	top:28px;
+	z-index: 99;
+	display: none;
+}
+.top .top_box .city .hidden_city{
+	background: white;
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	border: 1px solid gray;
+	z-index: 10;
+	display: none;
+}
+
 .top .top_box ul li{
 	float: right;
 	margin-left:10px;
 	font-size:13px; 
 
 }
+.top .top_box .city .hidden_city ul li{
+	margin-top: 2px;
+	float:left;	
+}
+.top .top_box .city .hidden_city ul li a{
+	padding: 2px 2px 2px 2px; 
+}
+
 .top .top_box .vercital{
 	
 }
@@ -57,4 +105,96 @@ a{
 	right:0px;
 	text-align: center;
 	line-height: 20px;
+}
+.banner{
+	height: 125px;
+	margin-top: 20px;
+	border-bottom: 2px solid #B61E1D;
+}
+.banner .banner_box{
+	width: 1210px;
+	margin:0 auto;
+	height: 80px;
+}	
+.banner .banner_box .shop{
+	width: 140px;
+	height: 35px;
+	background: #F9F9F9;
+	border:1px solid gray;
+	font-size: 14px;
+	line-height: 35px;
+	text-align:center;
+	float: right;
+	margin-right: 50px;
+}
+.banner .banner_box .logo_img{
+
+	float: left;
+}
+.banner .banner_box .memu{
+	width: 540px;
+	height: 37px;
+	/*background: red;*/
+
+	margin: 0 auto;
+}
+.banner .banner_box .memu .value{
+	width: 76px;
+	border: 1px solid gray;
+	height: 37px;
+	float: right;
+	text-align: center;
+	line-height: 35px;
+	background: #B61E1D;
+	cursor: pointer;
+	color: white;
+}
+.banner .banner_box .memu input{
+	width: 458px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	float: left;
+}
+#hotwords a{
+	color: #676767;
+	font-size: 12px;
+	margin-left: 8px;
+}
+#hotwords a:hover{
+	color: #B61E1D;
+}
+.banner .banner_nav {
+	width: 1210px;
+	height: 47px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.banner .banner_nav .banner_l{
+	width: 212px;
+	height: 47px;
+	background: #b2191b;
+	text-align: center;
+	line-height: 47px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	float: left;
+}
+.banner .banner_nav ul{
+	margin-left: 212px;
+}
+.banner .banner_nav ul li{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 47px;
+}
+.banner .banner_nav ul li a{
+	color: black;
+	font-size: 18px;
+	/*font-weight: bold;*/
+}
+.banner .banner_nav ul li a:hover{
+	color: #b2191b;
 }
